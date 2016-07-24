@@ -296,7 +296,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.icloud*
 launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 
 #disable pushing history to the cloud
-launchctl unload -w /System/Library/LaunchAgents/com.apple.SafariCloudhistoryPushAgent.plist
+launchctl unload -w /System/Library/LaunchAgents/com.apple.SafariCloudHistoryPushAgent.plist
 
 #disable address book services
 launchctl unload -w /System/Library/LaunchAgents/com.apple.AddressBook*
